@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecotienda</title>
+    <link rel="shorcut icon" type="image/x-icon" href="../images/mundoverde.png">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <!--link para poner logos desde página fontawesome-->
+    <script src="https://kit.fontawesome.com/3939fc1087.js" crossorigin="anonymous"></script>
+    <!--Media Querys-->
+    <link rel="stylesheet" media="(max-width: 1024px)" href="../css/estilos.css">
+    <link rel="stylesheet" media="(max-width: 600px)" href="../css/estilos.css">
+    </head>
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <img src="../images/mundoverde.png" width="100" height="100"></img>
+            <h4 class="titulo">La basura no desaparece</h4>
+        <!--La basura no desaparece va a ser el logo junto con una imagen del mundito en pequeño.-->   
+        </div>
+        <nav class="header__nav"> 
+            <i class="header__icono fa-solid fa-bars"></i>
+            <ul class="header__ul"> 
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="Como-Reciclo.html">Cómo reciclo</a></li>
+                <li><a href="Donde-Reciclo.html">Dónde Reciclo</a></li>
+                <li><a href="Ecotienda.html">Ecotienda</a></li>
+                <li><a href="Novedades.html">Novedades</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+             </ul>
+        </nav>  
+    </header>
+    <main>
+        <form class="ecotienda">
+            <h2>Qué estás buscando</h2> 
+            <br>
+            <select name="tipo" id="tipo">
+                <option value="">Seleccionar..</option>
+                <option value="composteras">Composteras</option>
+                <option value="cocina">Productos de cocina</option>
+                <option value="higiene">Productos de higiene</option>
+                <option value="copa-menstrual">Copa menstrual</option>
+            </select>
+        </form>
+
+        <container class="grid">
+            <div class="grid__hijo grid__hijo--producto1">
+                <h2>Composteras</h2>
+                <a href="products-composts.html"><img class="grid__img1--producto" src="../images/compostera-residuos-organicos.jpeg"></img></a>
+            </div>
+
+            <div class="grid__hijo grid__hijo--producto2">
+                <h2>Productos de cocina</h2>
+                <a href="products-cocina.html"><img class="grid__img2--producto" src="../images/product-cocina.webp"></img></a>
+            </div>
+            <div class="grid__hijo grid__hijo--producto3">
+                <h2>Productos de higiene</h2>
+                <a href="products-higiene.html"><img class="grid__img3--producto" src="../images/product-higiene.png"></img></a>
+            </div>
+
+            <div class="grid__hijo grid__hijo--producto4">
+                <h2>Copas menstruales</h2>
+                <a href="products-copas.html"><img class="grid__img4--producto" src="../images/product-copa.jpeg"></img></a>
+            </div>
+
+            <div class="grid__hijo grid__hijo--producto5">
+                <h2>Bolsas de tela</h2>
+                <a href="products-bolsas.html"><img class="grid__img5--producto" src="../images/bolsa.jpeg"></img></a>
+            </div>
+            <div class="grid__hijo grid__hijo--producto6">
+                <h2>Lencería erocológica</h2>
+                <a href="products-lenceria.html"><img class="grid__img6--producto" src="../images/lenceria ecologica 2.jpeg"></img></a>
+            </div>
+        </container>
+
+    </main>
+    <footer>
+        <span>All rights reserved - Encontranos en:</span>
+        <ul class="footer__redes">
+            <li><a href="https://www.facebook.com" target="blank"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="https://www.instagram.com" target="blank"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="mailto:sofitrovato@gmail.com"><i class="fa-solid fa-envelope"></i></a></li>
+        </ul>
+    </footer>
+</body>
+</html>

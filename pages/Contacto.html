@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="shorcut icon" type="image/x-icon" href="../images/mundoverde.png">
+    <link rel="stylesheet" href="../css/estilos.css">
+       <!--link para poner logos desde página fontawesome-->
+       <script src="https://kit.fontawesome.com/3939fc1087.js" crossorigin="anonymous"></script>
+       <!--Media Querys-->
+       <link rel="stylesheet" media="(max-width: 1024px)" href="../css/estilos.css">
+       <link rel="stylesheet" media="(max-width: 600px)" href="../css/estilos.css">
+   </head>
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <img src="../images/mundoverde.png" width="100" height="100"></img>
+            <h4 class="titulo">La basura no desaparece</h4>
+        <!--La basura no desaparece va a ser el logo junto con una imagen del mundito en pequeño.-->   
+        </div>
+        <nav class="header__nav"> 
+            <ul class="header__ul"> 
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="Como-Reciclo.html">Cómo reciclo</a></li>
+                <li><a href="Donde-Reciclo.html">Dónde Reciclo</a></li>
+                <li><a href="Ecotienda.html">Ecotienda</a></li>
+                <li><a href="Novedades.html">Novedades</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+             </ul>
+        </nav>  
+    </header>
+    <main>
+        <h1 class="contactenos">Contáctenos</h1>
+            <form action="" method="" enctype="">
+            <section class="contactenos__formulario">
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input required type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre..">
+                </div>
+
+                <br>
+                <div>
+                    <label for="apellido">Apellido:</label>
+                    <input required type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido..">
+                </div>
+
+                <br>
+                <div>
+                    <label for="mail">Mail</label>
+                    <input required type="text" id="mail" name="mail" placeholder="Ingrese su mail..">
+                </div>
+
+                <br>
+                <div>
+                    <label for="tipo">Tipo Consulta:</label>
+                    <select name="tipo" id="tipo">
+                        <option aria-placeholder="Seleccionar">Seleccionar..</option>
+                        <option value="Consulta">Consulta</option>
+                        <option value="Comprar">Comprar</option>
+                        <option value="Recoleccion-de-residuos">Recolección de residuos</option>
+                    </select>
+                </div>
+                <div>
+                    <br>
+                    <h3>Contactate con nosotros.</h3>
+                </div>
+
+                <div>
+                    <label for="mensaje">mensaje</label>
+                    <textarea name="comentario" id="comentario" cols="20" rows="10"></textarea>
+                </div>
+
+            <!--<div>
+                    <h3>Contanos que fué lo que más te interesó</h3>
+                    
+                    <br>
+                    <label for="compost">Compost</label>
+                    <input type="checkbox" id="compost" name="intereso">
+
+                    <label for="reciclado">Reciclado</label>
+                    <input type="checkbox" id="reciclado" name="intereso">
+                    
+                    <label for="productos">Productos Eco-sustentables</label>
+                    <input type="checkbox" id="productos" name="intereso">
+
+                    <label for="mapa">Mapa interactivo</label>
+                    <input type="checkbox" id="mapa" name="intereso">
+                </div> 
+            Aun no estoy segura si voy a dejar esta sección o si la voy a llamar de otra forma--> 
+                </form>
+                <br>
+                    <div>
+                        <input type="submit" value="Enviar">
+                    </div>
+            </section>            
+    </main> 
+    <footer>
+        <span>All rights reserved - Encontranos en:</span>
+        <ul class="footer__redes">
+            <li><a href="https://www.facebook.com" target="blank"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="https://www.instagram.com" target="blank"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="mailto:sofitrovato@gmail.com"><i class="fa-solid fa-envelope"></i></a></li>
+        </ul>
+    </footer>
+</body>
+</html>

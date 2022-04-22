@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Como-Reciclo</title>
+    <link rel="shorcut icon" type="image/x-icon" href="../images/mundoverde.png">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <!--link para poner logos desde página fontawesome-->
+    <script src="https://kit.fontawesome.com/3939fc1087.js" crossorigin="anonymous"></script>
+    <!--Media Querys, esto es necesario??????-->
+    <link rel="stylesheet" media="(max-width: 1024px)" href="../css/estilos.css">
+    <link rel="stylesheet" media="(max-width: 600px)" href="../css/estilos.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <img src="../images/mundoverde.png" width="100" height="100"></img>
+            <h4 class="titulo">La basura no desaparece</h4>
+        <!--La basura no desaparece va a ser el logo junto con una imagen del mundito en pequeño.-->   
+        </div>
+        <nav class="header__nav"> 
+            <ul class="header__ul"> 
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="Como-Reciclo.html">Cómo reciclo</a></li>
+                <li><a href="Donde-Reciclo.html">Dónde Reciclo</a></li>
+                <li><a href="Ecotienda.html">Ecotienda</a></li>
+                <li><a href="Novedades.html">Novedades</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+             </ul>
+        </nav>  
+    </header>
+    <main>
+        <div class="como-reciclo">
+            <section1>
+                    <h1 class="como-reciclo__titulo">¿Sabés qué es separar en origen?</h1>
+                    <p>Separar en origen es el primer paso del proceso de reciclaje. Comienza en tu casa, cuando disponés por un lado los materiales que pueden ser reciclados y, por otro, la basura.</p>
+            </section1>    
+            <section2>
+                <form>
+                        <h2>Qué querés reciclar?</h2>
+                        <br>
+                        <select name="tipo" id="tipo"> 
+                            <!--cada opción va a abrir otra página que explique la forma de reciclado de cada elemento-->  
+                            <option value="">Seleccionar..</option>
+                            <option value="plastico">Plástico</option>
+                            <option value="carton-y-papel">Cartón y papel</option>
+                            <option value="vidrio">Vidrio</option>
+                            <option value="metales">Metales</option>
+                            <option value="tapitas">Tapitas</option>
+                            <option value="pilas-recargables">Pilas Recargables</option>
+                            <option value="neumaticos">Neumáticos</option>
+                            <option value="electronicos">Electrónicos</option>
+                            <option value="bronce">Bronce</option>
+                            <option value="textiles">Textiles</option>
+                            <option value="aceite">Aceite</option>
+                        </select>
+                </form>
+            </section2>
+        </div>
+    </main>
+    <footer>
+        <span>All rights reserved - Encontranos en:</span>
+        <ul class="footer__redes">
+            <li><a href="https://www.facebook.com" target="blank"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="https://www.instagram.com" target="blank"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="mailto:sofitrovato@gmail.com"><i class="fa-solid fa-envelope"></i></a></li>
+        </ul>
+    </footer>
+</body>
+</html>

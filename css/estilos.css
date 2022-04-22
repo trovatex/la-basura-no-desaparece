@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Truculenta:wght@100&display=swap');
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Truculenta', sans-serif;
+*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    color: inherit;
+    text-decoration:none;
+    text-transform: uppercase;
+}
+
+.titulo{
+    font-family: 'Truculenta', sans-serif;
+    color: rgb(158, 197, 158);
+}
+
+header{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 20px;
+    }
+
+.header__logo img{
+    width: 100px;
+    height: auto;
+
+}
+
+.header__ul{
+    display: flex;
+    gap: 50px;
+    color: rgb(158, 197, 158);
+}
+
+.header__ul li {
+    list-style:none;
+    text-shadow: 1px 1px 1px;
+}
+.header__icono {
+    display: none;
+}
+
+main{
+    padding: 10px 10px;
+}
+
+.contenedor-section12 {
+
+    background-image: url(../images/crisisclimatica\ 3\ 2.jpeg);
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 250px;
+    color: white;
+    align-items: center;
+    padding: 30px 20px 20px 20px;
+    line-height: 2;
+    text-align: justify;
+}
+
+.titulo-principal {
+    text-shadow: 0.1em 0.1em 0.05em rgb(61, 61, 61)
+}
+
+section1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section3 {
+    background-color: rgb(226, 226, 204);
+}
+
+.section3__quienes-somos {
+    display: flex;
+    background-color: rgb(158, 197, 158);
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 20px;
+}
+
+.section3__parrafo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: justify;
+    align-items: center;
+    padding: 30px 20px 20px 20px;
+    line-height: 2;
+}
+ul.dondereciclo li{
+    list-style: none;
+}
+
+.boton {
+    font-family: 'Montserrat', sans-serif;
+    margin: 1rem 1rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}    
+
+.mapa {
+    margin-top: 1rem;    
+}
+
+footer {
+    display: flex;
+    gap: 15px;
+    background-color: rgb(158, 197, 158);
+    padding: 35px 15px;
+    align-items:center;
+    justify-content: center;    
+}
+
+.footer__redes {
+display: flex;
+gap: 15px;
+align-items: center;
+}
+
+.footer__redes li {
+    list-style:none;
+}
+
+/* pongo algunas cosas de otras paginas aparte porque no quiero que se mezcle todo*/
+
+/*como reciclo css*/
+.como-reciclo{
+    background-image: url(../images/pisoagrietado.jpeg);
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+    color: white;
+    text-shadow: 0.1em 0.1em 0.05em black;
+    align-items: center;
+    padding: 30px 20px 20px 20px;
+    line-height: 2;
+}
+.como-reciclo__titulo {
+    text-shadow: 0.1em 0.1em 0.05em rgb(61, 61, 61)
+}
+
+/*donde reciclo css*/
+.donde-reciclo{
+    background-image: url(../images/donde-reciclo.jpeg);
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 250px;
+    color: white;
+    align-items: center;
+    padding: 30px 20px 20px 20px;
+    text-shadow: 0.1em 0.1em 0.05em rgb(61, 61, 61)
+}
+
+.donde-reciclo__text {
+    display: flex;
+    background-color: rgb(158, 197, 158);
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px 20px 20px;
+    flex-direction: column;
+    text-align: justify;
+    line-height: 2;
+}
+.donde-reciclo__ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style:none;
+    line-height: 2;
+}
+
+/* contacto css*/
+.contactenos {
+    background-image: url(../images/contactenos-foto.jpg);
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+    color: white;
+    align-items: center;
+    padding: 230px 20px 20px 20px;
+    text-shadow: 0.1em 0.1em 0.05em rgb(61, 61, 61)
+}
+
+/* ecotienda css*/
+.ecotienda {
+    background-image: url(../images/montaña1.jpeg);
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 250px;
+    color: white;
+    align-items: center;
+    padding: 30px 20px 20px 20px;
+    text-shadow: 0.1em 0.1em 0.05em rgb(61, 61, 61)
+}
+
+/* contacto css*/
+.contactenos__formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+    text-align: justify;
+}
+
+/* novedad css*/
+.novedades {
+    background-image: url(../images/otoño.jpg);
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 250px;
+    color: white;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+    text-shadow: 0.1em 0.1em 0.05em rgb(61, 61, 61)
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 33% 33% 33%;
+    gap: 5px;
+}
+
+.grid__hijo grid__hijo--1, .grid__hijo grid__hijo--2, .grid__hijo grid__hijo--3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    background-color: #ecf0f1;
+}
+
+.grid__hijo--ul {
+list-style:none;
+}
+
+.grid__img1 {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    -ms-flex-item-align: end;
+}
+
+.grid__img2 {
+    width: 400px;
+    height: 400px;
+}
+
+.grid__img3 {
+    width: 300px;
+    height: 400px;
+}
+
+/*Ecotienda css*/
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+} 
+
+.grid__hijo grid__hijo--producto1, .grid__hijo grid__hijo--producto2, 
+.grid__hijo grid__hijo--producto3, .grid__hijo grid__hijo--producto4, 
+.grid__hijo grid__hijo--producto5, .grid__hijo grid__hijo--producto6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+}
+
+.grid__img1--producto, .grid__img2--producto, .grid__img3--producto, 
+.grid__img4--producto, .grid__img5--producto, .grid__img6--producto{
+    width: 350px;
+    height: 200px;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+/* Media Querys para index*/
+
+/* Para tablet*/
+@media screen and (max-width: 1024px) {
+    body {
+        background-color: rgb(189, 238, 115);
+    }
+    .header__ul {
+        display: none;
+    }
+    
+    .header {
+        flex-direction: row;
+        background-color: white;
+    }
+
+    .header__icono {
+        display: block;
+        font-size: 35px;
+    }
+
+    .titulo {
+        color: black;
+    }
+
+    .titulo-principal {
+        text-shadow: none;
+    }
+
+    .section3__imagen {
+        display: none;
+    }
+
+    .contenedor-section12 {
+        background-image: none;
+        width:auto;
+        height: auto;
+        color: black;
+        align-items: center;
+        padding: 30px 30px 30px 30px;
+        text-align: justify;
+    }
+    .section3__parrafo {
+        width:auto;
+        height: auto;
+        text-align: justify;
+    }
+}
+
+
+/* Para mobile */
+@media screen and (max-width: 600px) {
+  
+    /* Inicio sidebar*/
+    header__nav {
+            display: none;
+        }
+
+    .header__logo {
+            display: block;
+        }
+
+    /* en proceso el nav hamburguesa
+    #sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 80%;
+    }
+
+    #sidebar:target {
+        transform: translateX(0);
+        }
+
+    /* fin sidebar */
+
+  
+
+    .footer {
+            flex-direction: column;
+            gap: 1rem;
+        }
+    .footer__redes {
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+}
+
+/* Media querys para Ecotienda */
+/*vista tablet */
+@media screen and (max-width: 1024px) {
+    .ecotienda {
+            background-image: 100%;
+        }
+    
+    .grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            grid-column-gap: 5px;
+            grid-row-gap: 5px;
+        }
+    }
+
+/*vista mobile */
+@media screen and (max-width: 600px) {
+    .ecotienda {
+            background-image: none;
+        }
+    
+    .grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(6, 1fr);
+            grid-column-gap: 5px;
+            grid-row-gap: 5px;
+        }
+
+    }
