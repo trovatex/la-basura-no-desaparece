@@ -53,6 +53,22 @@ header{
     display: none;
 }
 
+.btn {
+    background-color: black;
+    border: none;
+    color: rgb(158, 197, 158);
+    padding: 5px 5px;
+    text-align: center;
+    font-size: 15px;
+    transition: 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #3e8e41;
+    color: white;
+    border-radius: 15px;
+  }
+
 main{
     padding: 10px 10px;
 }
@@ -141,6 +157,7 @@ align-items: center;
 
 /* pongo algunas cosas de otras paginas aparte porque no quiero que se mezcle todo*/
 
+
 /*como reciclo css*/
 .como-reciclo{
     background-image: url(../images/pisoagrietado.jpeg);
@@ -158,6 +175,7 @@ align-items: center;
 .como-reciclo__titulo {
     text-shadow: 0.1em 0.1em 0.05em rgb(61, 61, 61)
 }
+
 
 /*donde reciclo css*/
 .donde-reciclo{
@@ -192,6 +210,7 @@ align-items: center;
     line-height: 2;
 }
 
+
 /* contacto css*/
 .contactenos {
     background-image: url(../images/contactenos-foto.jpg);
@@ -205,6 +224,7 @@ align-items: center;
     padding: 230px 20px 20px 20px;
     text-shadow: 0.1em 0.1em 0.05em rgb(61, 61, 61)
 }
+
 
 /* ecotienda css*/
 .ecotienda {
@@ -220,6 +240,7 @@ align-items: center;
     text-shadow: 0.1em 0.1em 0.05em rgb(61, 61, 61)
 }
 
+
 /* contacto css*/
 .contactenos__formulario{
     display: flex;
@@ -228,6 +249,7 @@ align-items: center;
     padding: 20px 20px 20px 20px;
     text-align: justify;
 }
+
 
 /* novedad css*/
 .novedades {
@@ -280,8 +302,8 @@ list-style:none;
     height: 400px;
 }
 
-/*Ecotienda css*/
 
+/*Ecotienda css*/
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -300,13 +322,31 @@ list-style:none;
     padding: 10px;
 }
 
+/*Transición y animación*/
 .grid__img1--producto, .grid__img2--producto, .grid__img3--producto, 
 .grid__img4--producto, .grid__img5--producto, .grid__img6--producto{
     width: 350px;
     height: 200px;
     display: flex;
+    border: none;
+
+    opacity: 0.6;
+    transition: 0.3s;
 }
 
+.grid__img1--producto:hover {opacity: 1}
+.grid__img2--producto:hover {opacity: 1}
+.grid__img3--producto:hover {opacity: 1}
+.grid__img4--producto:hover {opacity: 1}
+.grid__img5--producto:hover {opacity: 1}
+.grid__img6--producto:hover {opacity: 1}
+
+.grid__img1--producto:hover {transform: scale(1.4);}
+.grid__img2--producto:hover {transform: scale(1.4);}
+.grid__img3--producto:hover {transform: scale(1.4);}
+.grid__img4--producto:hover {transform: scale(1.4);}
+.grid__img5--producto:hover {transform: scale(1.4);}
+.grid__img6--producto:hover {transform: scale(1.4);}
 
 
 
