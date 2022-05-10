@@ -1,0 +1,16 @@
+footer {
+    display: flex;
+    gap: 15px;
+    background-color: rgb(158, 197, 158);
+    padding: 35px 15px;
+    align-items:center;
+    justify-content: center;
+    .footer__redes {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    }
+    li {
+    list-style:none;
+    }
+}
