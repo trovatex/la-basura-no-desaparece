@@ -14,10 +14,10 @@ header{
     display: flex;
     gap: 50px;
     color: rgb(158, 197, 158);
+    list-style:none;
     }
     li {
-        list-style:none;
-        text-shadow: 1px 1px 1px;
+    list-style:none;
         }
 .btn {
     background-color: black;
@@ -27,9 +27,9 @@ header{
     text-align: center;
     font-size: 15px;
     transition: 0.3s;
-    .btn:hover {
+    }
+.btn:hover {
     background-color: #3e8e41;
     color: white;
     border-radius: 15px;
-      }
     }
